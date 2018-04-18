@@ -1,0 +1,92 @@
+body { margin: 0; }
+
+.film {
+         animation: film 10s linear infinite;
+      -o-animation: film 10s linear infinite;
+     -ms-animation: film 10s linear infinite;
+    -moz-animation: film 10s linear infinite;
+ -webkit-animation: film 10s linear infinite;
+}
+
+@keyframes film {
+      0% { background-position: 0 0; }
+    100% { background-position: -2500px 0; }
+}
+@-o-keyframes film {
+      0% { background-position: 0 0; }
+    100% { background-position: -2500px 0; }
+}
+@-ms-keyframes film {
+      0% { background-position: 0 0; }
+    100% { background-position: -2500px 0; }
+}
+@-moz-keyframes film {
+      0% { background-position: 0 0; }
+    100% { background-position: -2500px 0; }
+}
+@-webkit-keyframes film {
+      0% { background-position: 0 0; }
+    100% { background-position: -2500px 0; }
+}
+
+.main {
+  width: 100%;
+  position: absolute;
+}
+
+.margins {
+  margin-top: 14%;
+  margin-left: 2%;
+}
+
+#buttons { float: left; }
+
+.btn-qte:focus {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#poster {
+  width: auto;
+  float: left;
+  opacity: 0.5;
+  padding: 7px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.5) 0 0 24px;
+}
+
+#quote {
+   position: absolute;
+   display: inline-block;
+}
+
+#text {
+  float: left;
+  width: 225px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px 6px 6px 0;
+  box-shadow: rgba(0,0,0,0.5) 0 0 24px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+#title {
+  width: 205px;
+  height: auto;
+  padding: 5px;
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;  
+  border-radius: 6px 0 6px 6px;
+  background-color: lightgrey;
+}
